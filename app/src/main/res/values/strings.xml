@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Laboratoire1</string>
+    <string name="app_name">Laboratoire!</string>
+    <string name="welcome_msg">Bienvenue au cours 420-P5C! </string>
 </resources>
