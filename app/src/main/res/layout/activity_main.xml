@@ -9,18 +9,33 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tvBienvenue"
-        android:layout_width="wrap_content"
+        android:id="@+id/tvCGodin"
+        style="@style/whiteBox"
+        android:layout_width="0dp"
+
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_wide"
+        android:layout_marginTop="@dimen/margin_wide"
 
-        android:text="@string/welcome_msg"
-
-        android:textColor="@color/rouge"
+        android:layout_marginEnd="@dimen/margin_wide"
+        android:text="@string/txt_cgodin"
+        android:textColor="@color/white"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvName"
+        style="@style/whiteBox"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/votre_nom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCGodin"
+        tools:layout_width="130dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
