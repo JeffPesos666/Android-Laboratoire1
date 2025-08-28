@@ -36,6 +36,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvCGodin"
         tools:layout_width="130dp" />
+
+    <TextView
+        android:id="@+id/tvCours1"
+        style="@style/whiteBox"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="@string/txt_cours1"
+        app:layout_constraintBottom_toTopOf="@+id/tvCours2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvName"
+        app:layout_constraintTop_toTopOf="@+id/tvName"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/tvCours2"
+        style="@style/whiteBox"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="@string/txt_cours2"
+        app:layout_constraintBottom_toTopOf="@+id/tvCours3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toEndOf="@+id/tvName"
+        app:layout_constraintTop_toBottomOf="@+id/tvCours1" />
+
+    <TextView
+        android:id="@+id/tvCours3"
+        style="@style/whiteBox"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="@string/txt_cours3"
+        app:layout_constraintBottom_toBottomOf="@+id/tvName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvName"
+        app:layout_constraintTop_toBottomOf="@+id/tvCours2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
