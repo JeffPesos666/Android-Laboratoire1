@@ -23,15 +23,36 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+
+    //pour couleurs
+//    private fun makeColored(view: View) {
+//        when (view.id) {
+//            // textViews using Color class colors for the background
+//            R.id.tvCGodin -> view.setBackgroundColor(Color.DKGRAY)
+//            R.id.tvName -> view.setBackgroundColor(Color.GRAY)
+//            R.id.tvCours1 -> view.setBackgroundColor(Color.BLUE)
+//            R.id.tvCours2 -> view.setBackgroundColor(Color.MAGENTA)
+//            R.id.tvCours3 -> view.setBackgroundColor(Color.BLUE)
+//            else -> view.setBackgroundColor(Color.LTGRAY)
+//        }
+//    }
+
+    //pour images
     private fun makeColored(view: View) {
         when (view.id) {
-            // textViews using Color class colors for the background
-            R.id.tvCGodin -> view.setBackgroundColor(Color.DKGRAY)
-            R.id.tvName -> view.setBackgroundColor(Color.GRAY)
-            R.id.tvCours1 -> view.setBackgroundColor(Color.BLUE)
-            R.id.tvCours2 -> view.setBackgroundColor(Color.MAGENTA)
-            R.id.tvCours3 -> view.setBackgroundColor(Color.BLUE)
-            else -> view.setBackgroundColor(Color.LTGRAY)
+            // textViews using drawable images for the background
+            R.id.tvCGodin ->
+                view.setBackgroundResource(R.drawable.damascuscentre)
+            R.id.tvName ->
+                view.setBackgroundResource(R.drawable.damascuscentre)
+            R.id.tvCours1 ->
+                view.setBackgroundResource(R.drawable.damascuscentre)
+            R.id.tvCours2 ->
+                view.setBackgroundResource(R.drawable.damascuscentre)
+            R.id.tvCours3 ->
+                view.setBackgroundResource(R.drawable.damascuscentre)
+            else ->
+                view.setBackgroundResource(R.drawable.ic_launcher_background)
         }
     }
 
