@@ -60,13 +60,13 @@
         android:layout_marginEnd="@dimen/margin_wide"
         android:layout_marginBottom="@dimen/margin_wide"
         android:text="@string/txt_cours2"
-        app:layout_constraintBottom_toTopOf="@+id/tvCour3"
+        app:layout_constraintBottom_toTopOf="@+id/tvCours3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvName"
         app:layout_constraintTop_toBottomOf="@+id/tvCours1" />
 
     <TextView
-        android:id="@+id/tvCour3"
+        android:id="@+id/tvCours3"
         style="@style/whiteBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
